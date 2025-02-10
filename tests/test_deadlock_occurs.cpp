@@ -1,7 +1,7 @@
 #include "../src/deadlock_simulation.h"
 #include <iostream>
 
-int test3() {
+int main() {
 	DeadlockSimulation sim;
 	std::cout << "Test Phase 3: Deadlock Creation" << std::endl;
 	// Note: This test may hang if a deadlock occurs.

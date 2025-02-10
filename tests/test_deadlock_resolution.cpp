@@ -1,7 +1,7 @@
 #include "../src/deadlock_resolution.h"
 #include <iostream>
 
-int test4() {
+int main() {
 	DeadlockResolution res;
 	std::cout << "Test Phase 4: Deadlock Resolution" << std::endl;
 	res.runResolutionScenario();
